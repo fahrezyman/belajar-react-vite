@@ -1,12 +1,16 @@
-import Button from "./components/Elements/Button";
+import TypingAnimation from "./components/Elements/Typewriter Animation";
+import FormLogin from "./components/Fragments/FormLogin";
 
 function App() {
   return (
-    <div className="flex justify-center bg-slate-600 min-h-screen items-center">
-      <div className="flex gap-x-3">
-        <Button variant="bg-red-900">Log Out</Button>
-        <Button variant="bg-green-900">Log In</Button>
-        <Button variant="bg-black">Buy Now</Button>
+    <div className="flex justify-center bg-slate-700 min-h-screen items-center">
+      <div className="w-full max-w-xs">
+        <h1 className="text-3xl font-bold mb-2 text-cyan-500 font-mono">
+          Welcome
+        </h1>
+        <p className="text-white font-mono mb-4">Please enter your Account</p>
+        <FormLogin />
+        <TypingAnimation />
       </div>
     </div>
   );
