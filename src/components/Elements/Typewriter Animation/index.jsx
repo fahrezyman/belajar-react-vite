@@ -2,7 +2,7 @@ import { useTypewriter, Cursor } from "react-simple-typewriter";
 
 const TypingAnimation = () => {
   const [text] = useTypewriter({
-    words: ["ReactJS", "TailwindCSS", "Vite"],
+    words: ["React", "Tailwind", "Vite"],
     loop: [],
     typeSpeed: 70,
     deleteSpeed: 50,
